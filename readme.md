@@ -1,6 +1,6 @@
-# Report management information frontend
+# Crown Marketplace frontend
 
-Frontend components for the [Report management information sevice](https://www.reportmi.crowncommercial.gov.uk/) at the Crown
+Frontend components for the [Crown Marketplace sevice](https://www.reportmi.crowncommercial.gov.uk/) at the Crown
 Commercial Service.
 
 Extends the [GOVUK-Frontend](https://github.com/alphagov/govuk-design-system) components.
@@ -48,7 +48,7 @@ Github Pages.
 - Copy the contents of the *stylesheets* directory to *app/assets/stylesheets* in your Rails app
 - Require *reportmi.scss* in the manifest
 
-  ```*= require reportmi```
+  ```*= require cmp-frontend```
 
 - config the *config/initalizers/assets.rb* to locate the GOVUK-Frontend assets and precompile them
 
