@@ -1,7 +1,8 @@
-// CCS Settings that override GOV.UK ones
-$govuk-page-width: 1020px;
+/*
+  CCS Settings that override GOV.UK ones
+*/
 
-$govuk-assets-path: "";
+$govuk-assets-path: "/";
 $govuk-images-path: "";
 
 // $govuk-font-url-function: 'image-url';
@@ -29,9 +30,6 @@ $govuk-colours: (
   "light-blue": #2b8cc4,
   "blue": #005ea5,
 
-  "primary": #9b1a47,
-  "secondary": #016065,
-
   "black": #0b0c0c,
   "grey-1": #6f777b,
   "grey-2": #bfc1c3,
@@ -39,16 +37,23 @@ $govuk-colours: (
   "grey-4": #f8f8f8,
   "white": #ffffff,
 
-  "link": #005ea5,
-  "link-hover": #2b8cc4,
-  "link-visited": #4c2c92,
+  "link": #007194,
+  "link-hover": #15a0cc,
+  "link-visited": #15a0cc,
 
-  "failure": #b10e1e,
-  "warning": #de8f1a,
-  "success": #0eb163
+  "failure": #B10E1E,
+  "warning": #DE8F1A,
+  "success": #0EB163,
+
+  "primary": #9B1A47,
+  "secondary": #007E8A,
+  "dark-grey": #2F2F2F,
+
 );
 
-// Typography
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+
+/* Typography */
 $govuk-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 $govuk-font-family-print: sans-serif;
 

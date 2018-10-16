@@ -1,8 +1,8 @@
 {
-  "name": "reportmi-frontend",
+  "name": "cmp-frontend",
   "version": "0.0.1",
   "description": "Frontend components and patterns for the Report MI service",
-  "repository": "github:Crown-Commercial-Service/reportmi-frontend",
+  "repository": "github:Crown-Commercial-Service/cmp-frontend",
   "main": "fractal.js",
   "scripts": {
     "start": "npm run develop",
@@ -14,14 +14,13 @@
   "keywords": [],
   "author": "meyric@dxw.com",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@frctl/fractal": "^1.1.7",
+    "accessible-autocomplete": "^1.6.1",
     "govuk-frontend": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1",
-    "sass-lint": "^1.12.1",
-    "accessible-autocomplete": "^1.6.1"
+    "sass-lint": "^1.12.1"
   }
 }

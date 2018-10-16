@@ -32,7 +32,8 @@ gulp.task('watch', function () {
 
 gulp.task('fractal:develop', ['sass','scripts','images','watch'], function(){
   const server = fractal.web.server({
-      sync: true
+      sync: true,
+      port: 3999
   });
   server.on('error', err => logger.error(err.message));
   return server.start().then(() => {
