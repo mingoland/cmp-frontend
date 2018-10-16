@@ -27,7 +27,7 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('stylesheets/**/*.scss', ['sass']);
+  gulp.watch(['stylesheets/**/*.scss', 'examples/**/*.hbs'], ['sass']);
 });
 
 gulp.task('fractal:develop', ['sass','scripts','images','watch'], function(){
